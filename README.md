@@ -1,12 +1,12 @@
-**STM32F401 GPIO Driver (Bare-Metal)**
-📌 **Overview**
+STM32F401 GPIO Driver (Bare-Metal)
+📌 Overview
 
 This project implements a custom bare-metal GPIO driver for the STM32F401RE microcontroller using direct register-level programming.
 No HAL or CMSIS libraries are used — all peripheral control is done through memory-mapped registers.
 
 The project also includes a binary counter application where 8 LEDs display incrementing values controlled by a push button.
 
-🎯 **Objectives**
+🎯 Objectives
 
 Understand ARM Cortex-M4 architecture
 
@@ -18,7 +18,7 @@ Implement GPIO without abstraction libraries
 
 Practice bit manipulation and hardware debugging
 
-🛠 **Features**
+🛠 Features
 
 Peripheral clock enable/disable
 
@@ -46,7 +46,7 @@ Current limiting resistors for LEDs
 
 Tested in Proteus simulation.
 
-🚀 **How It Works**
+🚀 How It Works
 
 GPIOB pins 0–7 are configured as output.
 
@@ -60,7 +60,7 @@ Binary value is written to GPIOB
 
 LEDs display the binary output
 
-📚 **Learning Outcome**
+📚 Learning Outcome
 
 This project strengthens understanding of:
 
@@ -72,7 +72,7 @@ Embedded C programming
 
 Microcontroller hardware interfacing
 
-🔮 **Future Improvements**
+🔮 Future Improvements
 
 Interrupt-based button handling (EXTI)
 
@@ -82,7 +82,6 @@ BSRR register optimization
 
 Modular driver expansion for other peripherals
 
-📄**License**
+📄 License
 
-
-This project is licensed under the MIT License
+This project is licensed under the MIT License.
