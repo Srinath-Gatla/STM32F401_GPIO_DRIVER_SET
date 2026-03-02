@@ -72,8 +72,8 @@ Embedded C programming
 
 Microcontroller hardware interfacing
 
-🔮 **Future Improvements
-**
+🔮 **Future Improvements **
+
 Interrupt-based button handling (EXTI)
 
 Timer-based debouncing
@@ -83,5 +83,6 @@ BSRR register optimization
 Modular driver expansion for other peripherals
 
 📄** License**
+
 
 This project is licensed under the MIT License
